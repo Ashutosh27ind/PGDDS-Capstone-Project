@@ -16,11 +16,11 @@ In the banking industry, credit card fraud detection using machine learning is n
 
 # Understanding and Defining Fraud :    
 
-Credit card fraud is any dishonest act and behaviour to obtain information without the proper authorization from the account holder for financial gain. Among different ways of frauds, Skimming is the most common one, which is the way of duplicating of information located on the magnetic strip of the card.  Apart from this, the other ways are:  
-•	Manipulation/alteration of genuine cards
-•	Creation of counterfeit cards
-•	Stolen/lost credit cards
-•	Fraudulent telemarketing
+Credit card fraud is any dishonest act and behaviour to obtain information without the proper authorization from the account holder for financial gain. Among different ways of frauds, Skimming is the most common one, which is the way of duplicating of information located on the magnetic strip of the card.  Apart from this, the other ways are:    
+•	Manipulation/alteration of genuine cards  
+•	Creation of counterfeit cards  
+•	Stolen/lost credit cards  
+•	Fraudulent telemarketing  
 
 # Data Dictionary:  
   
@@ -28,7 +28,7 @@ The data set includes credit card transactions made by European cardholders over
 
 # Project Pipeline:  
 
-The project pipeline can be briefly summarized in the following four steps:  
+The project pipeline can be briefly summarized in the following four steps:    
 **•	Data Understanding:** Here, you need to load the data and understand the features present in it. This would help you choose the features that you will need for your final model.  
 **•	Exploratory data analytics (EDA):** Normally, in this step, you need to perform univariate and bivariate analyses of the data, followed by feature transformations, if necessary. For the current data set, because Gaussian variables are used, you do not need to perform Z-scaling. However, you can check if there is any skewness in the data and try to mitigate it, as it might cause problems during the model-building phase.  
 **•	Train/Test Split:** Now you are familiar with the train/test split, which you can perform in order to check the performance of your models with unseen data. Here, for validation, you can use the k-fold cross-validation method. You need to choose an appropriate k value so that the minority class is correctly represented in the test folds.  
